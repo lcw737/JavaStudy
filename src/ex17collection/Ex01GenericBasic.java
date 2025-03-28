@@ -63,7 +63,7 @@ public class Ex01GenericBasic {
 		아래와 같이 Orange가 아닌 인스턴스를 저장하면 즉시 컴파일에러가
 		발생하여 실행할 수 없는 코드가 된다. 즉 자료형에는 안전하다고
 		볼 수 있다. */
-		oBox1.store("당도가 20인 오렌지");
+	//	oBox1.store("당도가 20인 오렌지");
 		Orange orange2 = oBox1.pullOut();
 		orange2.showInfo();
 		
